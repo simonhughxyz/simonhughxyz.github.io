@@ -5,6 +5,53 @@
     <link>https://simonhugh.xyz/</link>
     <description>Recent content in index on Simon H Moore</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://simonhugh.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Wed, 03 Apr 2024 13:43:26 +0100</lastBuildDate><atom:link href="https://simonhugh.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I Made This Site</title>
+      <link>https://simonhugh.xyz/posts/how-i-made-this-site/</link>
+      <pubDate>Wed, 03 Apr 2024 13:43:26 +0100</pubDate>
+      
+      <guid>https://simonhugh.xyz/posts/how-i-made-this-site/</guid>
+      <description>I have always believed in minimalism and the KISS principle, so when I wanted to make my own site and blog, I needed something that followed these ideals.
+Hugo to the rescue!
+How does hugo work? Hugo is a static site generator written in Go, it is incredibly easy to set up and get going and you can write your content in plain old markdown. Hugo then takes you content/posts/blogs written in markdown and compiles them to html with a beautiful theme.</description>
+      <content>&lt;p&gt;I have always believed in minimalism and the &lt;a href=&#34;https://en.wikipedia.org/wiki/KISS_principle&#34;&gt;KISS&lt;/a&gt; principle, so when I wanted to make my own site and blog, I needed something that followed these ideals.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; to the rescue!&lt;/p&gt;
+&lt;h1 id=&#34;how-does-hugo-work&#34;&gt;How does hugo work?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; is a static site generator written in &lt;a href=&#34;https://go.dev/&#34;&gt;Go&lt;/a&gt;, it is incredibly easy to set up and get going and you can write your content in plain old markdown. &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; then takes you content/posts/blogs written in markdown and compiles them to html with a beautiful theme.&lt;/p&gt;
+&lt;p&gt;To use &lt;a href=&#34;https://gohugo.io/&#34;&gt;hugo&lt;/a&gt;, you first need to install it, you can find the official documentation to do so &lt;a href=&#34;https://gohugo.io/installation/&#34;&gt;here&lt;/a&gt;, but if you are using linux, it will most likely be available in your distributions package manager, and on windows you can us &lt;a href=&#34;https://scoop.sh/&#34;&gt;scoop&lt;/a&gt; or &lt;a href=&#34;https://chocolatey.org/&#34;&gt;chocolatey&lt;/a&gt; to install &lt;a href=&#34;https://gohugo.io/&#34;&gt;hugo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Once &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; is installed, follow the &lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;quickstart&lt;/a&gt; to create a site and pick and install a hugo theme (of course you can make your own if you whish).
+You can search for hugo themes on their official website &lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;After which it is as easy as creating some markdown files in the content folder and write about anything you want.&lt;/p&gt;
+&lt;p&gt;Note: its best to create the markdown files with the command &lt;code&gt;hugo new NAME-OF-FILE&lt;/code&gt; as hugo will generate the appropriate metadata in the file for you.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; comes with a inbuilt development server to preview your content, just run &lt;code&gt;hugo server&lt;/code&gt; inside your sites root directory and then, in your browser, navigate to &lt;code&gt;http://localhost:1313&lt;/code&gt; (the port might be different if &lt;code&gt;1313&lt;/code&gt; is occupied, check the output of the command for the uri address).&lt;/p&gt;
+&lt;p&gt;Once you are happy with how your site looks and its content, simply run the &lt;code&gt;hugo&lt;/code&gt; command inside your sites root directory and it will compile the site and generate all necessary files inside the &lt;code&gt;public&lt;/code&gt; directory.&lt;/p&gt;
+&lt;p&gt;You can then host the &lt;code&gt;public&lt;/code&gt; directory with your preferred web server such as &lt;a href=&#34;https://www.nginx.com/&#34;&gt;nginx&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;github-pages&#34;&gt;GitHub Pages&lt;/h1&gt;
+&lt;p&gt;One easy and simple way to host your website for free is to use &lt;a href=&#34;https://pages.github.com/&#34;&gt;github pages&lt;/a&gt;, this is what I did for my site.&lt;/p&gt;
+&lt;p&gt;What are the advantages of &lt;a href=&#34;https://pages.github.com/&#34;&gt;github pages&lt;/a&gt;?&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;its very easy to set up and maintain.&lt;/li&gt;
+&lt;li&gt;you can use &lt;code&gt;git&lt;/code&gt; to update your website, simple commit your latest changes and push them to the repository.&lt;/li&gt;
+&lt;li&gt;its free.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;But there are some disadvantages using &lt;a href=&#34;https://pages.github.com/&#34;&gt;github pages&lt;/a&gt;, such as that it has minimal support for dynamic content and no support for server side code. But that is ok, since we are using &lt;a href=&#34;https://gohugo.io/&#34;&gt;hugo&lt;/a&gt;, a static site generator.&lt;/p&gt;
+&lt;p&gt;To do so simply create a repository on your github account called &lt;code&gt;USERNAME.github.io&lt;/code&gt; (where &lt;code&gt;USERNAME&lt;/code&gt; is the username of your github account) and push the contents of the &lt;code&gt;public&lt;/code&gt; folder inside your hugo site to said repository.&lt;/p&gt;
+&lt;p&gt;You can then access your github page by navigating to &lt;code&gt;USERNAME.github.io&lt;/code&gt; in your browser.&lt;/p&gt;
+&lt;h1 id=&#34;i-want-to-use-my-own-domain&#34;&gt;I want to use my own domain&lt;/h1&gt;
+&lt;p&gt;As cool as &lt;a href=&#34;https://pages.github.com/&#34;&gt;github pages&lt;/a&gt; is, it would be even cooler if you could use your own domain such as &lt;code&gt;simonhugh.xyz&lt;/code&gt;, and you can.&lt;/p&gt;
+&lt;p&gt;All you need to do is purchase a domain from a domain register and create 4 new &lt;code&gt;A records&lt;/code&gt; for the domain and set each to one of the four github IP addresses listed below:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;- 185.199.108.153
+- 185.199.109.153
+- 185.199.110.153
+- 185.199.111.153
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can find more help on how to do this by following the official github instructions &lt;a href=&#34;https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;After you have done that, navigate to your &lt;a href=&#34;https://pages.github.com/&#34;&gt;github pages&lt;/a&gt; repository and navigate to setting -&amp;gt; pages and enter your domain in the &lt;code&gt;custom domain&lt;/code&gt; field. Github will then verify that you DNS is set up properly, once it has, you should be able to view your &lt;a href=&#34;https://pages.github.com/&#34;&gt;github pages&lt;/a&gt; website by navigating to your custom domain.&lt;/p&gt;
+&lt;p&gt;Note: if it does not work, you might need to wait a while since it can take up to 48 hours to propagate the changes you made to your domains &lt;code&gt;A records&lt;/code&gt;.&lt;/p&gt;
+</content>
+    </item>
+    
   </channel>
 </rss>

@@ -2,10 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://simonhugh.xyz/categories/</loc>
+    <loc>https://simonhugh.xyz/posts/how-i-made-this-site/</loc>
+    <lastmod>2024-04-03T13:43:26+01:00</lastmod>
+  </url><url>
+    <loc>https://simonhugh.xyz/tags/html/</loc>
+    <lastmod>2024-04-03T13:43:26+01:00</lastmod>
+  </url><url>
+    <loc>https://simonhugh.xyz/tags/hugo/</loc>
+    <lastmod>2024-04-03T13:43:26+01:00</lastmod>
   </url><url>
     <loc>https://simonhugh.xyz/</loc>
+    <lastmod>2024-04-03T13:43:26+01:00</lastmod>
+  </url><url>
+    <loc>https://simonhugh.xyz/posts/</loc>
+    <lastmod>2024-04-03T13:43:26+01:00</lastmod>
   </url><url>
     <loc>https://simonhugh.xyz/tags/</loc>
+    <lastmod>2024-04-03T13:43:26+01:00</lastmod>
+  </url><url>
+    <loc>https://simonhugh.xyz/categories/</loc>
   </url>
 </urlset>
