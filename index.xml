@@ -5,7 +5,6 @@
     <link>https://simonhugh.xyz/</link>
     <description>Recent content in index on Simon H Moore</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <atom:link href="https://simonhugh.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://simonhugh.xyz/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
