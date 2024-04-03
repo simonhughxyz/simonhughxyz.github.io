@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Simon H Moore</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Simon H Moore</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 03 Apr 2024 13:43:26 +0100</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I Made This Site</title>
+      <link>http://localhost:1313/posts/how-i-made-this-site/</link>
+      <pubDate>Wed, 03 Apr 2024 13:43:26 +0100</pubDate>
+      
+      <guid>http://localhost:1313/posts/how-i-made-this-site/</guid>
+      <description>I have always believed in minimalism and the KISS principle, so when I wanted to make my own site and blog, I needed something that followed these ideals.
+Hugo to the rescue!
+How does hugo work? Hugo is a static site generator written in Go, it is incredibly easy to set up and get going and you can write your content in plain old markdown. Hugo then takes you content/posts/blogs written in markdown and compiles them to html with a beautiful theme.</description>
+      <content>&lt;p&gt;I have always believed in minimalism and the &lt;a href=&#34;https://en.wikipedia.org/wiki/KISS_principle&#34;&gt;KISS&lt;/a&gt; principle, so when I wanted to make my own site and blog, I needed something that followed these ideals.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; to the rescue!&lt;/p&gt;
+&lt;h1 id=&#34;how-does-hugo-work&#34;&gt;How does hugo work?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; is a static site generator written in &lt;a href=&#34;https://go.dev/&#34;&gt;Go&lt;/a&gt;, it is incredibly easy to set up and get going and you can write your content in plain old markdown. &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; then takes you content/posts/blogs written in markdown and compiles them to html with a beautiful theme.&lt;/p&gt;
+&lt;p&gt;To use &lt;a href=&#34;https://gohugo.io/&#34;&gt;hugo&lt;/a&gt;, you first need to install it, you can find the official documentation to do so &lt;a href=&#34;https://gohugo.io/installation/&#34;&gt;here&lt;/a&gt;, but if you are using linux, it will most likely be available in your distributions package manager, and on windows you can us &lt;a href=&#34;https://scoop.sh/&#34;&gt;scoop&lt;/a&gt; or &lt;a href=&#34;https://chocolatey.org/&#34;&gt;chocolatey&lt;/a&gt; to install &lt;a href=&#34;https://gohugo.io/&#34;&gt;hugo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Once &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; is installed, follow the &lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;quickstart&lt;/a&gt; to create a site and pick and install a [hugo theme] (of course you can make your own if you whish).
+You can search for hugo themes on their official website &lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;After which it is as easy as creating some markdown files in the content folder and write about anything you want.
+&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; comes with a inbuilt development server to preview your content, just run &lt;code&gt;hugo server&lt;/code&gt; inside your sites root directory and then, in your browser, navigate to &lt;code&gt;http://localhost:1313&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;One you generated a site you need to pick a theme, you can find a repository of hugo themes [here][Hugo Theme], follow the instructions on the theme&amp;rsquo;s readme to install and set the theme up.
+The theme I used is called &lt;a href=&#34;https://hugothemesfree.com/a-simple-retro-theme-for-hugo/&#34;&gt;terminal&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;After which you can use the command `hugo new&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

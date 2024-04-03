@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+    <title>How I Made This Site :: Simon H Moore</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="I have always believed in minimalism and the KISS principle, so when I wanted to make my own site and blog, I needed something that followed these ideals.
+Hugo to the rescue!
+How does hugo work? Hugo is a static site generator written in Go, it is incredibly easy to set up and get going and you can write your content in plain old markdown. Hugo then takes you content/posts/blogs written in markdown and compiles them to html with a beautiful theme." />
+<meta name="keywords" content="hugo, html" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="http://localhost:1313/posts/how-i-made-this-site/" />
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="http://localhost:1313/styles.css">
+
+
+
+
+
+
+
+  <link rel="shortcut icon" href="http://localhost:1313/img/theme-colors/orange.png">
+  <link rel="apple-touch-icon" href="http://localhost:1313/img/theme-colors/orange.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="How I Made This Site">
+<meta property="og:description" content="I have always believed in minimalism and the KISS principle, so when I wanted to make my own site and blog, I needed something that followed these ideals.
+Hugo to the rescue!
+How does hugo work? Hugo is a static site generator written in Go, it is incredibly easy to set up and get going and you can write your content in plain old markdown. Hugo then takes you content/posts/blogs written in markdown and compiles them to html with a beautiful theme." />
+<meta property="og:url" content="http://localhost:1313/posts/how-i-made-this-site/" />
+<meta property="og:site_name" content="Simon H Moore" />
+
+  
+  
+  <meta property="og:image" content="http://localhost:1313/">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2024-04-03 13:43:26 &#43;0100 BST" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="orange">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Simon H. Moore
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="http://localhost:1313/posts/how-i-made-this-site/">How I Made This Site</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2024-04-03</time><span class="post-author">Simon H Moore</span></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="http://localhost:1313/tags/hugo/">hugo</a>&nbsp;
+      
+      #<a href="http://localhost:1313/tags/html/">html</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <p>I have always believed in minimalism and the <a href="https://en.wikipedia.org/wiki/KISS_principle">KISS</a> principle, so when I wanted to make my own site and blog, I needed something that followed these ideals.</p>
+<p><a href="https://gohugo.io/">Hugo</a> to the rescue!</p>
+<h1 id="how-does-hugo-work">How does hugo work?<a href="#how-does-hugo-work" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p><a href="https://gohugo.io/">Hugo</a> is a static site generator written in <a href="https://go.dev/">Go</a>, it is incredibly easy to set up and get going and you can write your content in plain old markdown. <a href="https://gohugo.io/">Hugo</a> then takes you content/posts/blogs written in markdown and compiles them to html with a beautiful theme.</p>
+<p>To use <a href="https://gohugo.io/">hugo</a>, you first need to install it, you can find the official documentation to do so <a href="https://gohugo.io/installation/">here</a>, but if you are using linux, it will most likely be available in your distributions package manager, and on windows you can us <a href="https://scoop.sh/">scoop</a> or <a href="https://chocolatey.org/">chocolatey</a> to install <a href="https://gohugo.io/">hugo</a>.</p>
+<p>Once <a href="https://gohugo.io/">Hugo</a> is installed, follow the <a href="https://themes.gohugo.io/">quickstart</a> to create a site and pick and install a hugo theme (of course you can make your own if you whish).
+You can search for hugo themes on their official website <a href="https://themes.gohugo.io/">here</a>.</p>
+<p>After which it is as easy as creating some markdown files in the content folder and write about anything you want.</p>
+<p>Note: its best to create the markdown files with the command <code>hugo new NAME-OF-FILE</code> as hugo will generate the appropriate metadata in the file for you.</p>
+<p><a href="https://gohugo.io/">Hugo</a> comes with a inbuilt development server to preview your content, just run <code>hugo server</code> inside your sites root directory and then, in your browser, navigate to <code>http://localhost:1313</code> (the port might be different if <code>1313</code> is occupied, check the output of the command for the uri address).</p>
+<p>Once you are happy with how your site looks and its content, simply run the <code>hugo</code> command inside your sites root directory and it will compile the site and generate all necessary files inside the <code>public</code> directory.</p>
+<p>You can then host the <code>public</code> directory with your preferred web server such as <a href="https://www.nginx.com/">nginx</a>.</p>
+<h1 id="github-pages">GitHub Pages<a href="#github-pages" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>One easy and simple way to host your website for free is to use <a href="https://pages.github.com/">github pages</a>, this is what I did for my site.</p>
+<p>What are the advantages of <a href="https://pages.github.com/">github pages</a>?</p>
+<ol>
+<li>its very easy to set up and maintain.</li>
+<li>you can use <code>git</code> to update your website, simple commit your latest changes and push them to the repository.</li>
+<li>its free.</li>
+</ol>
+<p>But there are some disadvantages using <a href="https://pages.github.com/">github pages</a>, such as that it has minimal support for dynamic content and no support for server side code. But that is ok, since we are using <a href="https://gohugo.io/">hugo</a>, a static site generator.</p>
+<p>To do so simply create a repository on your github account called <code>USERNAME.github.io</code> (where <code>USERNAME</code> is the username of your github account) and push the contents of the <code>public</code> folder inside your hugo site to said repository.</p>
+<p>You can then access your github page by navigating to <code>USERNAME.github.io</code> in your browser.</p>
+<h1 id="i-want-to-use-my-own-domain">I want to use my own domain<a href="#i-want-to-use-my-own-domain" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>As cool as <a href="https://pages.github.com/">github pages</a> is, it would be even cooler if you could use your own domain such as <code>simonhugh.xyz</code>, and you can.</p>
+<p>All you need to do is purchase a domain from a domain register and create 4 new <code>A records</code> for the domain and set each to one of the four github IP addresses listed below:</p>
+<pre><code>- 185.199.108.153
+- 185.199.109.153
+- 185.199.110.153
+- 185.199.111.153
+</code></pre>
+<p>You can find more help on how to do this by following the official github instructions <a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site">here</a>.</p>
+<p>After you have done that, navigate to your <a href="https://pages.github.com/">github pages</a> repository and navigate to setting -&gt; pages and enter your domain in the <code>custom domain</code> field. Github will then verify that you DNS is set up properly, once it has, you should be able to view your <a href="https://pages.github.com/">github pages</a> website by navigating to your custom domain.</p>
+<p>Note: if it does not work, you might need to wait a while since it can take up to 48 hours to propagate the changes you made to your domains <code>A records</code>.</p>
+
+      </div></div>
+
+  
+    
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2024 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
